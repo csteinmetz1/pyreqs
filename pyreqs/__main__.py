@@ -16,7 +16,7 @@ def main():
     if args.path is None:
         args.path = os.getcwd()
 
-    if args.verion is None:
+    if args.version is None:
         args.version = "{}.{}".format(sys.version_info[0], sys.version_info[1]) 
 
     libraries = stdlib_list(args.version) # get standard library modules
